@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do corpo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3bfbf; /* Define a cor de fundo */
+    }
+    
+    h1 {
+    color: #333; /* Define a cor do cabeçalho */
+    }
+    
+    button {
+    background-color: #4c86af; /* Define a cor de fundo do botão */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    button:hover {
+    background-color: #3e6e8f; /* Define a cor do botão ao passar o
+    mouse */
+    }
+    
+    form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra
+    ao formulário */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    label {
+    display: block;
+    margin-top: 10px;
+    }
+    
+    input {
+    
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    }
+    
+    table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    }
+    
+    th, td {
+    padding: 10px;
+
+    text-align: left;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    
+    th {
+    background-color: #eb7e7e; /* Define a cor de fundo do cabeçalho
+    da tabela */
+    }
